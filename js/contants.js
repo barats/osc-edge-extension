@@ -23,7 +23,7 @@ const RSS_RECOMM_BLOGS_CATEGORY_PREFIX = 'https://www.oschina.net/blog/rss?cid='
 const RSS_CIRCLE_ARTICLES_PREFIX = 'https://www.oschina.net/groups/rss?ident=';
 
 //UTM_SOURCE 配置
-const UTM_SOURCE_STR = 'utm_source=oschina-chrome-extension';
+const UTM_SOURCE_STR = 'utm_source=oschina-edge-extension';
 
 //Gitee 仓库链接
 const GITEE_REPO_URL = 'https://gitee.com/barat/osc-edge-extension?' + UTM_SOURCE_STR;

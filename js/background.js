@@ -3,7 +3,7 @@ chrome.browserAction.setBadgeBackgroundColor({
 });
 
 chrome.runtime.onInstalled.addListener(function () {
-    console.log('OSCHINA Chrome Extension installed.');
+    console.log('OSCHINA Microsoft Edge Extension installed.');
 });
 
 chrome.browserAction.onClicked.addListener(function () {
