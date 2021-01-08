@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>开源中国 Microsoft Edge 浏览器插件</title>
+    <link rel="stylesheet" type="text/css" href="../css/main.css" />
+    <script src="../js/contants.js" charset="utf-8"></script>
+    <script src="../js/oschina.js" charset="utf-8"></script>
+</head>
+
+<body>
+    <div class="body-container">
+        <div class="header-container">
+            <a class="logo" href="https://www.oschina.net?utm_source=oschina-chrome-extension" target="_blank">
+                <img src="https://static.oschina.net/new-osc/img/logo_osc_new.svg" alt="OSCHINA">
+            </a>
+            <div class="search-wrap">
+                <input id="txt-search" type="text" name="q" placeholder="搜索开源软件、资讯、技术文章" required>
+                <button id="btn-search" type="button" class="btn-search">搜索</button>
+            </div>
+            <div class="version-wrap">
+                <button id="btn-download" type="button" class="btn-download">下载源码</button>
+            </div>
+        </div>
+        <div class="panel-container">
+            <div class="panel">
+                <div class="panel__inner">
+                    <div class="panel__title">
+                        <div class="title" id="news-title">开源资讯</div>
+                        <div class="select news__select">
+                            <select id="news-selector">
+                                <option value="all" selected>最新资讯</option>
+                                <option value="generic">综合资讯</option>
+                                <option value="project">软件资讯</option>
+                                <option value="industry">行业资讯</option>
+                                <option value="programming">编程语言</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div id="news-list" class="list">
+                    </div>
+                </div>
+            </div>
+            <div class="panel">
+                <div class="panel__inner">
+                    <div class="panel__title">
+                        <div class="title" id="blogs-title">专区文章</div>
+                        <div class="select blogs_select">
+                            <select id="circle-selector">
+                                <option value="cross-front" selected>大前端</option>
+                                <option value="skill">开发技能</option>                                
+                                <option value="database">数据库</option>
+                                <option value="cloud">云计算</option>
+                                <option value="paddlepaddle">PaddlePaddle 飞桨</option>
+                                <option value="harmonyos">OpenHarmony 鸿蒙</option>
+                                <option value="ai-bigdata">AI / 大数据</option>
+                                <option value="architecture">软件架构</option>
+                                <option value="programmer">程序人生</option>
+                                <option value="trend">行业趋势</option>
+                                <option value="osgovernance">开源治理</option>                                
+                                <option value="hardware-iot">硬件 / IoT</option>                                
+                                <option value="cyber-security">信息安全</option>
+                                <option value="ops">运维相关</option>
+                                <option value="test">软件测试</option>
+                                <option value="network">网络技术</option>
+                                <option value="game">游戏开发</option>
+                                <option value="media">多媒体处理</option>
+                                <option value="devops">DevOps相关</option>
+                                <option value="blockchain">区块链技术</option>
+                                <option value="kunpeng">Kunpeng 鲲鹏</option>
+                                <option value="openEuler">openEuler 欧拉</option>
+                                <option value="openvino">OpenVINO</option>
+                                <option value="edgex-foundry">EdgeX</option>                                
+                            </select>
+                        </div>
+                    </div>
+                    <div id="blogs-list" class="list">
+                    </div>
+                </div>
+            </div>
+            <div class="panel">
+                <div class="panel__inner">
+                    <div class="panel__title">
+                        <div class="title" id="projects-title">开源软件</div>
+                        <div class="select projects_select">
+                            <select id="projects-selector">
+                                <option value="recomm">最新推荐</option>
+                                <option value="all" selected>最新收录</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div id="projects-list" class="list">
+                    </div>
+                </div>
+            </div>
+            <div class="panel">
+                <div class="panel__inner">
+                    <div class="panel__title">
+                        <div class="title" id="questions-title">最新问答</div>
+                        <div class="select questions_select">
+                            <select id="questions-selector">
+                                <option value="1" selected>技术问答</option>
+                                <option value="2">技术分享</option>
+                                <option value="3">IT大杂烩</option>
+                                <option value="100">职业生涯</option>
+                                <option value="4">站务/建议</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div id="questions-list" class="list">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
