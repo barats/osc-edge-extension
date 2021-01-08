@@ -26,7 +26,7 @@ const RSS_CIRCLE_ARTICLES_PREFIX = 'https://www.oschina.net/groups/rss?ident=';
 const UTM_SOURCE_STR = 'utm_source=oschina-chrome-extension';
 
 //Gitee 仓库链接
-const GITEE_REPO_URL = 'https://gitee.com/barat/osc-chrome-extension?' + UTM_SOURCE_STR;
+const GITEE_REPO_URL = 'https://gitee.com/barat/osc-edge-extension?' + UTM_SOURCE_STR;
 
 //搜索前缀
 const OSC_SEARCH_PREFIX = 'https://www.oschina.net/search?scope=all&q=';
